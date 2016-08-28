@@ -37,8 +37,8 @@
 					var shoWClass="showClass";
 				} else {
 					var shoWClass="hideClass";
-				}
-				innerHTML+="<div class='"+shoWClass+"' id='myTable'><div class='year'>"+year+"</div><div id='monthName' class='month "+shoWClass+"'><a class='btn' id='prevYear' onclick='prevYear();'> - </a> "+monthName+" "+monthDays+" "+monthNumbers+" <a class='btn' id='nextYear' onclick='nextYear();'> + </a></div> <div class='weeks'>";
+				}/*"+monthDays+" "+monthNumbers+"*/
+				innerHTML+="<div class='"+shoWClass+"' id='myTable'><div class='year'>"+year+"</div><div id='monthName' class='month "+shoWClass+"'><a class='btn' id='prevYear' onclick='prevYear();'> - </a> "+monthName+" <a class='btn' id='nextYear' onclick='nextYear();'> + </a></div> <div class='weeks'>";
 				weekPrint();
 				innerHTML+="</div>";
 				daysPrint(i);
